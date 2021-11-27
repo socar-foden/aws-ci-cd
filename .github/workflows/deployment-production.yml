@@ -29,7 +29,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: ${{ secrets.APPLICATION_NAME }}
           environment_name: ${{ secrets.BEANSTALK_ENV_NAME }}
-          version_label: github-action-${{ GITHUB_RUN_ID }}
+          version_label: github-action-${{ secrets.GITHUB_RUN_ID }}
           region: ap-northeast-2
           deployment_package: deploy.zip
 # soomgo 로직
