@@ -6,7 +6,7 @@ import About from './About';
 function App() {
   return (
     <div className='App'>
-      스크립트 정리 테스트
+      스크립트 정리 테스트 22
       <Router>
         <div>
           <nav>
