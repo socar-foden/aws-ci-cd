@@ -8,6 +8,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../build', 'index.html'));
 });
 
-app.listen(8080, () => {
-  console.log(`Server listening on http://localhost:${8080}`);
+app.listen(3000, () => {
+  console.log(`Server listening on http://localhost:${3000}`);
 });
